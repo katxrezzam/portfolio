@@ -1,0 +1,30 @@
+.avatarProfileContainer{
+  position: relative;
+  width: 166px;
+  height: 166px;
+}
+.avatarInner{
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  bottom: 2px;
+  left: 2px;
+}
+.avatarPictureFrame{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  pointer-events: none;
+}
+.avatarPictureFrame > img{
+  transform: scale(1.22);
+}
+.avatarInner img{
+  background: none;
+  fill: none;
+  display: block;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}

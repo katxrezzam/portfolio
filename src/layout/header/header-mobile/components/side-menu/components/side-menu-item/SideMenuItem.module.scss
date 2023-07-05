@@ -1,0 +1,19 @@
+.menuItemContainer {
+  border-top: 1px solid #2f3138;
+  border-bottom: 1px solid #000000;
+  position: relative;
+  color: #bdbdbd;
+  background: #171a21;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 12px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  line-height: 2.5em;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: 300;
+  text-align: start;
+}

@@ -1,0 +1,23 @@
+.infoProfileContainer{
+  flex: 1;
+}
+.infoProfileName{
+  font-size: 24px;
+  font-weight: 300;
+}
+.infoProfileCountry{
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.infoProfileDescription > p,.infoProfileCountry > p{
+  color:  #c4c4c4;
+}
+.infoProfileCountry > img{
+  width: 16px;
+  height: 11px;
+}
+.infoProfileDescription{
+  margin-top: 30px;
+}

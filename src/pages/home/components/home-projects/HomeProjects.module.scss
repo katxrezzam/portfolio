@@ -1,0 +1,28 @@
+.homeProjectsContainerGradient{
+  background: radial-gradient(
+      farthest-side at top right,
+      var(--gradient-right),
+      transparent 500px
+    ),
+    radial-gradient(
+      farthest-corner at top left,
+      var(--gradient-left),
+      transparent 600px
+    ),
+    radial-gradient(
+      farthest-corner at bottom right,
+      var(--gradient-background-right),
+      transparent 500px
+    ),
+    radial-gradient(
+      farthest-corner at bottom left,
+      var(--gradient-background-left),
+      transparent 600px
+    );
+  background-color: var(--gradient-background);
+  overflow: hidden;
+}
+.homeProjectsContainer{
+  padding: 12px 12px 64px 12px;
+  font-size: 13px;
+}

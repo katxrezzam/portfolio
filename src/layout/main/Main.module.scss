@@ -1,0 +1,21 @@
+.animatedBackground{
+  background-size: 100%;
+  background: none;
+  background-color: black;
+}
+.videoContainer{
+  position: absolute;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  overflow: hidden;
+}
+.animatedBackground .videoContainer > video{
+  width: 100%;
+}
+@media (max-width: 1920px) {
+  .videoContainer > video{
+    width: 1920px;
+  }
+}

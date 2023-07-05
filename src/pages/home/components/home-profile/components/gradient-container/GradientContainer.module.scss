@@ -1,0 +1,40 @@
+.gradientContainer {
+  min-height: 224px;
+  background: radial-gradient(
+      farthest-side at bottom right,
+      var(--gradient-right),
+      transparent 500px
+    ),
+    radial-gradient(
+      farthest-corner at bottom left,
+      var(--gradient-left),
+      transparent 600px
+    );
+  background-color: var(--gradient-background);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.homeProjectsContainerGradient{
+  background: radial-gradient(
+      farthest-side at top right,
+      var(--gradient-right),
+      transparent 500px
+    ),
+    radial-gradient(
+      farthest-corner at top left,
+      var(--gradient-left),
+      transparent 600px
+    ),
+    radial-gradient(
+      farthest-corner at bottom right,
+      var(--gradient-background-right),
+      transparent 500px
+    ),
+    radial-gradient(
+      farthest-corner at bottom left,
+      var(--gradient-background-left),
+      transparent 600px
+    );
+  background-color: var(--gradient-background);
+  overflow: hidden;
+}
